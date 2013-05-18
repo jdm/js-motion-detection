@@ -165,9 +165,9 @@ video {
 }
 
 #hotSpots {
-	position: relative;
+/*	position: relative;
 	display: none;
-	height: 100%;
+	height: 100%;*/
 }
 
 #hotSpots > * {

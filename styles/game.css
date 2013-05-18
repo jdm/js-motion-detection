@@ -1,0 +1,64 @@
+.leftarrow {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    margin-top: -10%;
+}
+
+.rightarrow {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+   margin-top: -10%;
+}
+
+.downarrow {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  margin-left: -10%;
+}
+
+.uparrow {
+  margin-left: -10%;
+}
+
+#left {
+    top: 50%;
+    left: 0;
+}
+
+#right {
+    top: 50%;
+    right: 0;
+}
+
+#top {
+    top: 0;
+    left: 50%;
+}
+
+#bottom {
+    bottom: 0;
+    left: 50%;
+}
+
+#score {
+    text-align: center;
+    font-size: 20px;
+    line-height: 55px;
+    color: #AAA;
+}
+
+#overlay {
+    position: relative;
+    display: none;
+    height: 100%;
+}
+
+#arrows > .arrow {
+    position: absolute;
+	-moz-transition: all 1000ms linear;
+	-webkit-transition: all 1000ms linear;
+	transition: all 1000ms linear;
+        left: 50%;
+        top: 50%;
+        display: block;
+}
